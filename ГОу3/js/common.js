@@ -51,10 +51,11 @@ $(function(){
          }
       }
    });
-   function onResize(){
-      $('.carousel-albums-item').equalHeights();
-   }onResize();
-   window.onresize = function() {onResize()};
-   
+
+   $('.reviews').owlCarousel({
+      loop: true ,
+      items: 1,
+      smartSpeed: 700, 
+   });
 
 });

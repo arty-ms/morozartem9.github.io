@@ -5,16 +5,24 @@
 	.main_mnu{
 		display: none;
 	}
+	.hamburger-inner,  .hamburger-inner::before , .hamburger-inner::after{
+	background-color: #757F3F;}
+
+
+	
 
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	.logo{
+			visibility: hidden;
+		}
 .slogan{
 	text-align: center;
 }
-
+	.hamburger-inner,  .hamburger-inner::before , .hamburger-inner::after{
+	background-color: #757F3F;}
 
 
 	
@@ -27,7 +35,9 @@
 	.SM {
 		display: none;
 	}
-
+	.logo{
+			visibility: hidden;
+		}
 
 }
 
